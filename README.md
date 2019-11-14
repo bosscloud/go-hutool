@@ -31,13 +31,13 @@ GoHutool的目标是使用一个工具方法代替一段复杂代码，从而最
 - go-hutool-extra           扩展模块，对第三方封装（模板引擎、邮件、Servlet、二维码、Emoji、FTP、分词等）
 - go-hutool-http            基于HttpUrlConnection的Http客户端封装
 - go-hutool-log             自动识别日志实现的日志门面
-- go-hutool-script          脚本执行封装，例如Javascript
+- go-hutool-script          脚本执行封装，例如goscript
 - go-hutool-setting         功能更强大的Setting配置文件和Properties封装
 - go-hutool-system          系统参数调用封装（JVM信息等）
 - go-hutool-json            JSON实现
 - go-hutool-captcha         图片验证码实现
 - go-hutool-poi             针对POI中Excel的封装
-- go-hutool-socket          基于Java的NIO和AIO的Socket封装
+- go-hutool-socket          基于go的NIO和AIO的Socket封装
 
 可以根据需求对每个模块单独引入，也可以通过引入`go-hutool-all`方式引入所有模块。
 
@@ -62,7 +62,7 @@ GoHutool的目标是使用一个工具方法代替一段复杂代码，从而最
 
 GoHutool欢迎任何人为GoHutool添砖加瓦，贡献代码，不过作者是一个强迫症患者，为了照顾病人，需要提交的pr（pull request）符合一些规范，规范如下：
 
-1. 注释完备，尤其每个新增的方法应按照Java文档规范标明方法说明、参数说明、返回值说明等信息，如果愿意，也可以加上你的大名。
+1. 注释完备，尤其每个新增的方法应按照go文档规范标明方法说明、参数说明、返回值说明等信息，如果愿意，也可以加上你的大名。
 2. GoHutool的缩进按照Eclipse（不要跟我说IDEA多好用，作者非常懒，学不会）默认（tab）缩进，所以请遵守（不要和我争执空格与tab的问题，这是一个病人的习惯）。
 3. 新加的方法不要使用第三方库的方法，Hutool遵循无依赖原则（除非在extra模块中加方法工具）。
 4. 请pull request到`v4-dev`分支。Hutool在4.x版本后使用了新的分支：`v4-master`是主分支，表示已经发布中央库的版本，这个分支不允许pr，也不允许修改。`v4-dev`分支是开发分支，Hutool的下个版本或者SNAPSHOT版本在这个分支上开发，你可以pr到这个分支。
