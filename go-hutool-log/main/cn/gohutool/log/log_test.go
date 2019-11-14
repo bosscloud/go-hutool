@@ -3,7 +3,7 @@ package log_test
 import (
 	"testing"
 
-	"github.com/spring2go/gravitee/log"
+	"github.com/huangbosbos/go-hutool/go-hutool-log/main/cn/gohutool/log"
 )
 
 func TestDefaultLogger(t *testing.T) {
