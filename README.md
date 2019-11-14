@@ -38,6 +38,7 @@ GoHutool的目标是使用一个工具方法代替一段复杂代码，从而最
 - go-hutool-captcha         图片验证码实现
 - go-hutool-poi             针对POI中Excel的封装
 - go-hutool-socket          基于go的NIO和AIO的Socket封装
+- go-hutool-pinyin          Go 语言的汉语拼音合集包
 
 可以根据需求对每个模块单独引入，也可以通过引入`go-hutool-all`方式引入所有模块。
 
